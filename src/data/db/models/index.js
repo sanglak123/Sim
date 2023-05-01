@@ -6,6 +6,9 @@ const env = process.env.NODE_ENV || "development";
 const config = require(__dirname + "/../config/config.json")[env];
 const db = {};
 const Users = require("./users");
+const Categorys = require("./categorys");
+const Productions = require("./productions");
+const Sims = require("./sims");
 
 let sequelize;
 if (config.use_env_variable) {
@@ -26,6 +29,9 @@ Object.keys(db).forEach((modelName) => {
 });
 
 db.Users = Users(sequelize, Sequelize);
+db.Categorys = Categorys(sequelize, Sequelize);
+db.Productions = Productions(sequelize, Sequelize);
+db.Sims = Sims(sequelize, Sequelize);
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
