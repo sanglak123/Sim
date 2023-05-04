@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "sim",
-    "host": "127.0.0.1",
+    "username": "tra23225_admin",
+    "password": "sanglak123",
+    "database": "tra23225_sim",
+    "host": "112.78.2.102",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "tra23225_admin",
+    "password": "Eb-$_1Xh-ewT",
+    "database": "tra23225_sim",
+    "host": "112.78.2.102",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "tra23225_admin",
+    "password": "Eb-$_1Xh-ewT",
+    "database": "tra23225_sim",
+    "host": "112.78.2.102",
     "dialect": "mysql"
   }
 }

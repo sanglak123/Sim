@@ -9,6 +9,7 @@ const Users = require("./users");
 const Categorys = require("./categorys");
 const Productions = require("./productions");
 const Sims = require("./sims");
+const Reviews = require("./reviews");
 
 let sequelize;
 if (config.use_env_variable) {
@@ -22,16 +23,17 @@ if (config.use_env_variable) {
   );
 }
 
+db.Users = Users(sequelize, Sequelize);
+db.Categorys = Categorys(sequelize, Sequelize);
+db.Productions = Productions(sequelize, Sequelize);
+db.Sims = Sims(sequelize, Sequelize);
+db.Reviews = Reviews(sequelize, Sequelize);
+
 Object.keys(db).forEach((modelName) => {
   if (db[modelName].associate) {
     db[modelName].associate(db);
   }
 });
-
-db.Users = Users(sequelize, Sequelize);
-db.Categorys = Categorys(sequelize, Sequelize);
-db.Productions = Productions(sequelize, Sequelize);
-db.Sims = Sims(sequelize, Sequelize);
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;

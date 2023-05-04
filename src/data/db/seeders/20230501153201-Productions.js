@@ -7,79 +7,97 @@ module.exports = {
       "Productions",
       [
         {
-          name: "Sim Du Lịch Liên Tuyến : Singapore - Malay - Indonesia",
+          name: "Singapore - Malay - Indonesia",
           idCate: 1,
+          avatar: "/img/production/sin_mal_ind.png",
         },
         {
-          name: "Sim Du Lịch Hongkong - Trung Quốc - Macau",
+          name: "Hongkong - Trung Quốc - Macau",
           idCate: 1,
+          avatar: "/img/production/hongkong_1.png",
         },
         {
-          name: "SSim Du Lịch Thái Lan",
+          name: "Thái Lan",
           idCate: 1,
+          avatar: "/img/production/thailan.png",
         },
         {
-          name: "Sim Du Lịch Nhật Bản",
+          name: "Nhật Bản",
           idCate: 1,
+          avatar: "/img/production/nhatban.png",
         },
         {
-          name: "Sim Du Lich Liên Tuyến : ẤN Độ - Nepal",
+          name: "ẤN Độ - Nepal",
           idCate: 1,
+          avatar: "/img/production/ando_nepal.png",
         },
         {
-          name: "Sim Du Lịch Dubai",
+          name: "Dubai",
           idCate: 1,
+          avatar: "/img/production/dubai.png",
         },
         {
-          name: "Sim Du Lịch Liên Tuyến : Hàn - Nhật",
+          name: "Hàn - Nhật",
           idCate: 1,
+          avatar: "/img/production/han_nhat.png",
         },
         {
-          name: "Sim Du Lịch Đài Loan",
+          name: "Đài Loan",
           idCate: 1,
+          avatar: "/img/production/dailoan.png",
         },
         //2
         {
-          name: "Sim Du Lịch Châu Âu",
+          name: "Châu Âu",
           idCate: 2,
+          avatar: "/img/production/chau_au.png",
         },
         {
-          name: "Sim Mỹ",
+          name: "Mỹ",
           idCate: 2,
+          avatar: "/img/production/my.png",
         },
         {
-          name: "Sim Du Lịch : Mỹ - Canada",
+          name: "Mỹ - Canada",
           idCate: 2,
+          avatar: "/img/production/my_canada.png",
         },
         {
-          name: "Sim Thỗ Nhĩ Kỳ",
+          name: "Thỗ Nhĩ Kỳ",
           idCate: 2,
+          avatar: "/img/production/thonhiky.png",
         },
         {
-          name: "Sim Du Lịch Monaco",
+          name: "Monaco",
           idCate: 2,
+          avatar: "/img/production/monaco.png",
         },
         //3
         {
-          name: "Sim Du Lịch Úc",
+          name: "Úc",
           idCate: 3,
+          avatar: "/img/production/uc.png",
         },
         {
-          name: "Sim Du Lịch Nam Phi",
+          name: "Nam Phi",
           idCate: 3,
+          avatar: "/img/production/namphi.png",
         },
         {
-          name: "Sim Du Lich Ai Cập",
+          name: "Ai Cập",
           idCate: 3,
+          avatar: "/img/production/aicap.png",
         },
         //4
         {
-          name: "ESIM Châu Á",
+          name: "Châu Á",
           idCate: 4,
+          avatar: "/img/production/esim_chau_a.png",
         },
         {
-          name: "ESIM CHÂU ÂU",
+          name: "CHÂU ÂU",
           idCate: 4,
+          avatar: "/img/production/esim_chau_au.png",
         },
       ],
       {}

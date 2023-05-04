@@ -1,0 +1,100 @@
+html,
+body {
+  font-family: utm_avo;
+  font-weight: 400;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.sim_header {
+  font-size: 20px;
+  font-family: utm_avo_bold;
+}
+
+.logo {
+  text-align: center;
+  .g4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: -12px;
+    span:first-child {
+      font-size: 50px;
+      letter-spacing: -12px;
+      display: block;
+    }
+    span:last-child {
+      font-family: anton;
+      font-size: 50px;
+      line-height: 1;
+      display: block;
+    }
+  }
+  .data {
+    font-size: 0.9rem;
+    letter-spacing: 12px;
+    text-align: center;
+  }
+}
+
+//With
+.w-95 {
+  width: 95%;
+  margin: 0 auto;
+}
+.w-90 {
+  width: 90%;
+  margin: 0 auto;
+}
+.w-85 {
+  width: 85%;
+  margin: 0 auto;
+}
+.w-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+//txt_align
+.txt_right {
+  text-align: right;
+}
+.txt_left {
+  text-align: left;
+}
+
+.txt_center {
+  text-align: center;
+}
+.txt_justify {
+  text-align: justify;
+}
+.txt_bold {
+  font-weight: bold;
+}
+.txt_blue {
+  color: blue;
+}
+.txt_red {
+  color: rgb(102, 3, 3);
+}
+//bgr
+.bsd {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bdr-7 {
+  border-radius: 7px;
+}
+.bg_white {
+  background-color: white;
+}
+.bg_blue {
+  background-color: $blue;
+}
+.bg_pink {
+  background-color: $pink;
+}
+.bg_pink_700 {
+  background-color: $pink_700;
+}
+.bg_red {
+  background-color: $red;
+}

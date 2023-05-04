@@ -23,6 +23,11 @@ module.exports = (sequelize, DataTypes) => {
       call: DataTypes.BOOLEAN,
       size_sim: DataTypes.STRING,
       idProduct: DataTypes.INTEGER,
+      avatar: DataTypes.STRING,
+      order: DataTypes.INTEGER,
+      inventory: DataTypes.INTEGER,
+      selled: DataTypes.INTEGER,
+      common: DataTypes.BOOLEAN,
     },
     {
       sequelize,

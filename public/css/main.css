@@ -1,0 +1,254 @@
+@font-face {
+  font-family: anton_black;
+  src: url("/font/Anton-Regular.ttf");
+}
+@font-face {
+  font-family: utm_avo;
+  src: url("/font/UTM Avo.ttf");
+}
+@font-face {
+  font-family: utm_avo_bold;
+  src: url("/font/UTM AvoBold.ttf");
+}
+@font-face {
+  font-family: mon_light;
+  src: url("/font/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: mon_thin;
+  src: url("/font/Montserrat-Thin.ttf");
+}
+@font-face {
+  font-family: mon_regular;
+  src: url("/font/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: mon_bold;
+  src: url("/font/Montserrat-ExtraBold.ttf");
+}
+html,
+body {
+  font-family: utm_avo;
+  font-weight: 400;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.sim_header {
+  font-size: 20px;
+  font-family: utm_avo_bold;
+}
+
+.logo {
+  text-align: center;
+}
+.logo .g4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: -12px;
+}
+.logo .g4 span:first-child {
+  font-size: 50px;
+  letter-spacing: -12px;
+  display: block;
+}
+.logo .g4 span:last-child {
+  font-family: anton;
+  font-size: 50px;
+  line-height: 1;
+  display: block;
+}
+.logo .data {
+  font-size: 0.9rem;
+  letter-spacing: 12px;
+  text-align: center;
+}
+
+.w-95 {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.w-90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.w-85 {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.w-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.txt_right {
+  text-align: right;
+}
+
+.txt_left {
+  text-align: left;
+}
+
+.txt_center {
+  text-align: center;
+}
+
+.txt_justify {
+  text-align: justify;
+}
+
+.txt_bold {
+  font-weight: bold;
+}
+
+.txt_blue {
+  color: blue;
+}
+
+.txt_red {
+  color: rgb(102, 3, 3);
+}
+
+.bsd {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bdr-7 {
+  border-radius: 7px;
+}
+
+.bg_white {
+  background-color: white;
+}
+
+.bg_blue {
+  background-color: #2b3964;
+}
+
+.bg_pink {
+  background-color: #ecaba3;
+}
+
+.bg_pink_700 {
+  background-color: #f5e3e0;
+}
+
+.bg_red {
+  background-color: #af4d4a;
+}
+
+#sim_header {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(45deg, rgb(2, 0, 36) 0%, rgb(121, 9, 92) 23%, rgb(0, 78, 255) 100%);
+}
+#sim_header a {
+  color: white;
+}
+#sim_header #header_top {
+  background-color: transparent;
+}
+#sim_header #header_top a {
+  font-size: 0.8rem;
+}
+#sim_header #header_main {
+  background-color: transparent;
+}
+
+#slide_card .card_item .card {
+  min-height: 400px !important;
+  position: relative;
+}
+#slide_card .card_item .card .card-body .card-title {
+  font-family: utm_avo_bold;
+  font-size: 1rem;
+}
+#slide_card .card_item .card .card_btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  margin: 5px auto;
+  text-align: center;
+}
+#slide_card .card_item .card .card_btn button {
+  border-radius: 0;
+  padding: 10px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+  margin: 5px 0;
+  transition: 0.5s;
+  position: relative;
+}
+#slide_card .card_item .card .card_btn button span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  text-align: center;
+}
+#slide_card .card_item .card .card_btn button .tip {
+  background-color: white;
+  padding: 5px 15px;
+  font-size: 0.9rem;
+  color: black;
+  position: absolute;
+  width: 100px;
+  top: 0;
+  left: calc(100% - 145px);
+  display: none;
+}
+#slide_card .card_item .card .card_btn button .tip::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: -3px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  transform: rotate(45deg);
+}
+#slide_card .card_item .card .card_btn button:hover {
+  background-color: #af4d4a;
+}
+#slide_card .card_item .card .card_btn button:hover .tip {
+  display: block;
+}
+
+#home_page #advantage .advantage_content .advantage_item {
+  min-height: 400px;
+  padding: 25px;
+  transition: 0.5s;
+}
+#home_page #advantage .advantage_content .advantage_item:hover {
+  transform: scale(1.1);
+}
+#home_page #advantage .advantage_content .advantage_item .item_icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 15px auto;
+  border: 3px solid #af4d4a;
+  padding: 10px;
+  border-radius: 100%;
+  text-align: center;
+}
+#home_page #advantage .advantage_content .advantage_item .item_icon span {
+  font-size: 40px;
+  color: #af4d4a;
+  text-align: center;
+  line-height: 50px;
+}
+#home_page #advantage .advantage_content .advantage_item .item_title {
+  margin-top: 25px;
+}
+#home_page #advantage .advantage_content .advantage_item .item_title h6 {
+  font-size: 20px;
+  font-family: utm_avo_bold;
+  color: blue;
+}/*# sourceMappingURL=main.css.map */

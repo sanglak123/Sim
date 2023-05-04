@@ -1,0 +1,37 @@
+#home_page {
+  #advantage {
+    .advantage_content {
+      .advantage_item {
+        min-height: 400px;
+        padding: 25px;
+        transition: 0.5s;
+        &:hover {
+          transform: scale(1.1);
+        }
+        .item_icon {
+          width: 70px;
+          height: 70px;
+          margin: 0 auto 15px auto;
+          border: 3px solid $red;
+          padding: 10px;
+          border-radius: 100%;
+          text-align: center;
+          span {
+            font-size: 40px;
+            color: $red;
+            text-align: center;
+            line-height: 50px;
+          }
+        }
+        .item_title {
+          margin-top: 25px;
+          h6 {
+            font-size: 20px;
+            font-family: utm_avo_bold;
+            color: blue;
+          }
+        }
+      }
+    }
+  }
+}

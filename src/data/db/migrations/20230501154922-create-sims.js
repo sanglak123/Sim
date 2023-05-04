@@ -43,6 +43,25 @@ module.exports = {
           key: "id",
         },
       },
+      avatar: {
+        type: Sequelize.STRING,
+      },
+      order: {
+        type: Sequelize.INTEGER,
+        defaultValue: 0,
+      },
+      inventory: {
+        type: Sequelize.INTEGER,
+        defaultValue: 1,
+      },
+      selled: {
+        type: Sequelize.INTEGER,
+        defaultValue: 0,
+      },
+      common: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

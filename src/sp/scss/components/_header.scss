@@ -1,0 +1,21 @@
+#sim_header {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 92, 1) 23%,
+    rgba(0, 78, 255, 1) 100%
+  );
+  a {
+    color: white;
+  }
+  #header_top {
+    background-color: transparent;
+    a {
+      font-size: 0.8rem;
+    }
+  }
+  #header_main {
+    background-color: transparent;
+  }
+}

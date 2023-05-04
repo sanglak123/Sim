@@ -1,0 +1,14 @@
+@import "./base/variable";
+@import "./base/reset";
+
+//Components
+@import "./components/header";
+@import "./components/footer";
+
+//Layouts
+@import "./layouts/slideCard";
+
+//Page
+@import "./pages/home";
+@import "./pages/admin";
+@import "./pages/dashboard";
